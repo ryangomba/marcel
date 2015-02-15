@@ -2,7 +2,7 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "IntroViewController.h"
 
 #import "SoundManager.h"
 
@@ -17,7 +17,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    ViewController *vc = [[ViewController alloc] init];
+    IntroViewController *vc = [[IntroViewController alloc] init];
     self.window.rootViewController = vc;
     
     [self.window makeKeyAndVisible];

@@ -36,7 +36,6 @@
 		9421746F1A8F1283006AE2DD /* muffin-a.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 942174501A8F1283006AE2DD /* muffin-a.m4a */; };
 		942174701A8F1283006AE2DD /* muffin-sleep.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 942174511A8F1283006AE2DD /* muffin-sleep.m4a */; };
 		942174711A8F1283006AE2DD /* party.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 942174521A8F1283006AE2DD /* party.m4a */; };
-		942174721A8F1283006AE2DD /* qualities.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 942174531A8F1283006AE2DD /* qualities.m4a */; };
 		942174731A8F1283006AE2DD /* soda.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 942174541A8F1283006AE2DD /* soda.m4a */; };
 		942174741A8F1283006AE2DD /* song.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 942174551A8F1283006AE2DD /* song.m4a */; };
 		942174751A8F1283006AE2DD /* treats-all.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 942174561A8F1283006AE2DD /* treats-all.m4a */; };
@@ -45,6 +44,7 @@
 		942174781A8F1283006AE2DD /* uhh.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 942174591A8F1283006AE2DD /* uhh.m4a */; };
 		942174791A8F1283006AE2DD /* what-they-say.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9421745A1A8F1283006AE2DD /* what-they-say.m4a */; };
 		9421747C1A8F12FF006AE2DD /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 9421747B1A8F12FF006AE2DD /* Button.m */; };
+		94AC059C1A90411F00AAACD2 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AC059B1A90411F00AAACD2 /* IntroViewController.m */; };
 		94C952021A9022B000DE715F /* Launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C952011A9022B000DE715F /* Launch.xib */; };
 		94C952041A9023BF00DE715F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C952031A9023BF00DE715F /* Images.xcassets */; };
 /* End PBXBuildFile section */
@@ -87,7 +87,6 @@
 		942174501A8F1283006AE2DD /* muffin-a.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "muffin-a.m4a"; sourceTree = "<group>"; };
 		942174511A8F1283006AE2DD /* muffin-sleep.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "muffin-sleep.m4a"; sourceTree = "<group>"; };
 		942174521A8F1283006AE2DD /* party.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = party.m4a; sourceTree = "<group>"; };
-		942174531A8F1283006AE2DD /* qualities.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = qualities.m4a; sourceTree = "<group>"; };
 		942174541A8F1283006AE2DD /* soda.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = soda.m4a; sourceTree = "<group>"; };
 		942174551A8F1283006AE2DD /* song.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = song.m4a; sourceTree = "<group>"; };
 		942174561A8F1283006AE2DD /* treats-all.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "treats-all.m4a"; sourceTree = "<group>"; };
@@ -97,6 +96,8 @@
 		9421745A1A8F1283006AE2DD /* what-they-say.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "what-they-say.m4a"; sourceTree = "<group>"; };
 		9421747A1A8F12FF006AE2DD /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
 		9421747B1A8F12FF006AE2DD /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		94AC059A1A90411F00AAACD2 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		94AC059B1A90411F00AAACD2 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 		94C952011A9022B000DE715F /* Launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launch.xib; sourceTree = "<group>"; };
 		94C952031A9023BF00DE715F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BB9343291F88FE6C1900F6BA /* Pods-Marcel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marcel.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Marcel/Pods-Marcel.debug.xcconfig"; sourceTree = "<group>"; };
@@ -215,7 +216,6 @@
 				942174501A8F1283006AE2DD /* muffin-a.m4a */,
 				942174511A8F1283006AE2DD /* muffin-sleep.m4a */,
 				942174521A8F1283006AE2DD /* party.m4a */,
-				942174531A8F1283006AE2DD /* qualities.m4a */,
 				942174541A8F1283006AE2DD /* soda.m4a */,
 				942174551A8F1283006AE2DD /* song.m4a */,
 				942174561A8F1283006AE2DD /* treats-all.m4a */,
@@ -234,6 +234,8 @@
 				942174311A8F0693006AE2DD /* AppDelegate.m */,
 				942174321A8F0693006AE2DD /* ViewController.h */,
 				942174331A8F0693006AE2DD /* ViewController.m */,
+				94AC059A1A90411F00AAACD2 /* IntroViewController.h */,
+				94AC059B1A90411F00AAACD2 /* IntroViewController.m */,
 				942174361A8F06C7006AE2DD /* SoundManager.h */,
 				942174371A8F06C7006AE2DD /* SoundManager.m */,
 				942174391A8F06DF006AE2DD /* SoundMap.h */,
@@ -332,7 +334,6 @@
 				942174661A8F1283006AE2DD /* guess-hair.m4a in Resources */,
 				9421745C1A8F1283006AE2DD /* alan.m4a in Resources */,
 				9421746E1A8F1283006AE2DD /* lint.m4a in Resources */,
-				942174721A8F1283006AE2DD /* qualities.m4a in Resources */,
 				9421746F1A8F1283006AE2DD /* muffin-a.m4a in Resources */,
 				942174771A8F1283006AE2DD /* treats-snoozin.m4a in Resources */,
 				942174751A8F1283006AE2DD /* treats-all.m4a in Resources */,
@@ -385,6 +386,7 @@
 				9421747C1A8F12FF006AE2DD /* Button.m in Sources */,
 				9421743B1A8F06DF006AE2DD /* SoundMap.m in Sources */,
 				9421740E1A8F0648006AE2DD /* main.m in Sources */,
+				94AC059C1A90411F00AAACD2 /* IntroViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
