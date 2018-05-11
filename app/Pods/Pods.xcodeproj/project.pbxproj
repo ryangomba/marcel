@@ -7,106 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00394D7266DB20C3694B9E21BC19B936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		3845427A0DEADA074E6395CAE9AABB79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7FD0116C11597F3D5C32FF2EDCC4B540 /* BFPaperButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB7C1404634061D8F5C03CC4BDA0418 /* BFPaperButton-dummy.m */; };
-		858D8E1C4FC13632D0B303A1AFB8D60C /* Pods-Marcel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C42E4D78EEDCF68F111482BCF5A47B /* Pods-Marcel-dummy.m */; };
-		940E7A14FD2F679983E78CB31E4F5096 /* BFPaperButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C0BC841ED901BF36645497D46F5120DC /* BFPaperButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C2B92C1B900725A06C9D0E3787C3B77D /* BFPaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BB87F4EEF0E42FE86BF07C25B97F110E /* BFPaperButton.m */; };
+		17C718CA3D36C65305618530ADE3CCA8 /* BFPaperButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBF64C10988D69B3420E9506824500C /* BFPaperButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		374950D0E01AE1218457FA953F1B1965 /* BFPaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8429F27FF9C4D60E2B9E8996AC22B8 /* BFPaperButton.m */; };
+		4B74132BFB0940A10B09CF5D4F86C2F8 /* BFPaperButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2363E724F129CAD48C9581B1987840A5 /* BFPaperButton-dummy.m */; };
+		6901921A28C592CE21DA0C88809F56DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8AD942706A14BEE5A957D46A22BA9AD1 /* Pods-Marcel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 041DA8BCCAC646EB8EF786EB2FEBE2F7 /* Pods-Marcel-dummy.m */; };
+		B5CED19216DFD97889015E7E120EEAB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DA4B3039C1D29468665D9B040F3E9938 /* Pods-Marcel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB39C45FE0E5902EEE3D08BB989B1280 /* Pods-Marcel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEA2AEF28562AD6951D233089709E705 /* BFPaperButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7165BA8EF52637012B4A8A38554AB3B1 /* BFPaperButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A1011320E4354087218F07AC4E9AE280 /* PBXContainerItemProxy */ = {
+		AA8768B409EE5CFAB17A28215450E9CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6920591AF8261DE6B5BF08EFFDD141F8;
+			remoteGlobalIDString = 0AD0BB4A92A7E15CDA2D402E6AF3639E;
 			remoteInfo = BFPaperButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B4C7BB644002D3AADF96C398B7FB0CD /* BFPaperButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BFPaperButton.xcconfig; sourceTree = "<group>"; };
-		3BB5B2942F85955A30459241EB2E3CD7 /* Pods-Marcel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Marcel-resources.sh"; sourceTree = "<group>"; };
+		041DA8BCCAC646EB8EF786EB2FEBE2F7 /* Pods-Marcel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Marcel-dummy.m"; sourceTree = "<group>"; };
+		14C6A6E8792A28F43BC730D5F279E629 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2363E724F129CAD48C9581B1987840A5 /* BFPaperButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BFPaperButton-dummy.m"; sourceTree = "<group>"; };
+		2507B19960A74B94C5AC736FC111EBD4 /* BFPaperButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BFPaperButton.framework; path = BFPaperButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBF64C10988D69B3420E9506824500C /* BFPaperButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFPaperButton-umbrella.h"; sourceTree = "<group>"; };
+		3CE1350C9CC504807044708D7C5967BB /* BFPaperButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFPaperButton-prefix.pch"; sourceTree = "<group>"; };
+		4A150E93DE407DF58827A9B332B22054 /* Pods-Marcel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Marcel-frameworks.sh"; sourceTree = "<group>"; };
+		51CB1B22B40B30F6398E8304AEA295B3 /* Pods-Marcel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Marcel-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66C42E4D78EEDCF68F111482BCF5A47B /* Pods-Marcel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Marcel-dummy.m"; sourceTree = "<group>"; };
-		6F51BBE017FAE8172FC38997EC234925 /* Pods-Marcel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Marcel.release.xcconfig"; sourceTree = "<group>"; };
-		75AD6100E2DC311F8628A1E25584A43A /* libBFPaperButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBFPaperButton.a; path = libBFPaperButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FABE954FF8D867089C5E7312ACF6A0B /* BFPaperButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BFPaperButton.modulemap; sourceTree = "<group>"; };
+		7165BA8EF52637012B4A8A38554AB3B1 /* BFPaperButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFPaperButton.h; path = Classes/BFPaperButton.h; sourceTree = "<group>"; };
+		793F37021853F360E7BDB1543A5A46B9 /* Pods-Marcel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Marcel-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D16B4A87FEAF8EEBAE28152CA9011F7 /* Pods_Marcel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Marcel.framework; path = "Pods-Marcel.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80850A8E82E8BFD9DDB47EC91FFC9FED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		990F88E0EB179E3125B619068BBB6619 /* libPods-Marcel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Marcel.a"; path = "libPods-Marcel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB87F4EEF0E42FE86BF07C25B97F110E /* BFPaperButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFPaperButton.m; path = Classes/BFPaperButton.m; sourceTree = "<group>"; };
-		C0BC841ED901BF36645497D46F5120DC /* BFPaperButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFPaperButton.h; path = Classes/BFPaperButton.h; sourceTree = "<group>"; };
-		C876365159FA68CC7F79B41E928AEEDF /* Pods-Marcel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Marcel.debug.xcconfig"; sourceTree = "<group>"; };
-		CA8C96E1C0CDF6EA7C82D61CC8E6F37A /* Pods-Marcel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Marcel-acknowledgements.plist"; sourceTree = "<group>"; };
-		E8B6168684B80673AA603B835838DAB9 /* BFPaperButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFPaperButton-prefix.pch"; sourceTree = "<group>"; };
-		E9F88D7C5368BB72CE79355D36EDCE88 /* Pods-Marcel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Marcel-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EE9624BC89A7AA70195A6E8CB29A3C36 /* Pods-Marcel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Marcel-frameworks.sh"; sourceTree = "<group>"; };
-		FDB7C1404634061D8F5C03CC4BDA0418 /* BFPaperButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BFPaperButton-dummy.m"; sourceTree = "<group>"; };
+		99D49CC1F427F11E7A2814B51FB4284E /* Pods-Marcel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Marcel.debug.xcconfig"; sourceTree = "<group>"; };
+		BE8429F27FF9C4D60E2B9E8996AC22B8 /* BFPaperButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFPaperButton.m; path = Classes/BFPaperButton.m; sourceTree = "<group>"; };
+		BF97795809A57881A54B4C8910848022 /* Pods-Marcel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Marcel.release.xcconfig"; sourceTree = "<group>"; };
+		C6D17EBD175D0B79A6310EC698C23F40 /* BFPaperButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BFPaperButton.xcconfig; sourceTree = "<group>"; };
+		C6D522E028407403182D5B129CA8D082 /* Pods-Marcel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Marcel-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB39C45FE0E5902EEE3D08BB989B1280 /* Pods-Marcel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Marcel-umbrella.h"; sourceTree = "<group>"; };
+		E383F9E210279F00D2BD03CD25267082 /* Pods-Marcel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Marcel.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		108C39E3E93D8B51FD5CC10526460C8E /* Frameworks */ = {
+		6F9C4668C23E9ABBEB888BA45389B24C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3845427A0DEADA074E6395CAE9AABB79 /* Foundation.framework in Frameworks */,
+				6901921A28C592CE21DA0C88809F56DF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2324805498028DD79FACF8DD05961CA /* Frameworks */ = {
+		9028771DF9653AC8BC73B225852343ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00394D7266DB20C3694B9E21BC19B936 /* Foundation.framework in Frameworks */,
+				B5CED19216DFD97889015E7E120EEAB4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		23E2D66612561E5CDC937BFE6FD04303 /* Support Files */ = {
+		0BC792527A476509D4BD42CED13FC6A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B4C7BB644002D3AADF96C398B7FB0CD /* BFPaperButton.xcconfig */,
-				FDB7C1404634061D8F5C03CC4BDA0418 /* BFPaperButton-dummy.m */,
-				E8B6168684B80673AA603B835838DAB9 /* BFPaperButton-prefix.pch */,
+				2507B19960A74B94C5AC736FC111EBD4 /* BFPaperButton.framework */,
+				7D16B4A87FEAF8EEBAE28152CA9011F7 /* Pods_Marcel.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/BFPaperButton";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		36DECB3C78C8877CBEC154408289E7C7 /* Pods-Marcel */ = {
+		11D0F50824F6D44ADF8DD8071AA36AE2 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E9F88D7C5368BB72CE79355D36EDCE88 /* Pods-Marcel-acknowledgements.markdown */,
-				CA8C96E1C0CDF6EA7C82D61CC8E6F37A /* Pods-Marcel-acknowledgements.plist */,
-				66C42E4D78EEDCF68F111482BCF5A47B /* Pods-Marcel-dummy.m */,
-				EE9624BC89A7AA70195A6E8CB29A3C36 /* Pods-Marcel-frameworks.sh */,
-				3BB5B2942F85955A30459241EB2E3CD7 /* Pods-Marcel-resources.sh */,
-				C876365159FA68CC7F79B41E928AEEDF /* Pods-Marcel.debug.xcconfig */,
-				6F51BBE017FAE8172FC38997EC234925 /* Pods-Marcel.release.xcconfig */,
+				D03FCC917EFBE5D7855DE58EC7BFA3A5 /* Pods-Marcel */,
 			);
-			name = "Pods-Marcel";
-			path = "Target Support Files/Pods-Marcel";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		417B691FD9C546C678B4B55B00A0E63F /* BFPaperButton */ = {
+		6653AC39BA99D9F0FAE451B8001E75F3 /* BFPaperButton */ = {
 			isa = PBXGroup;
 			children = (
-				C0BC841ED901BF36645497D46F5120DC /* BFPaperButton.h */,
-				BB87F4EEF0E42FE86BF07C25B97F110E /* BFPaperButton.m */,
-				23E2D66612561E5CDC937BFE6FD04303 /* Support Files */,
+				7165BA8EF52637012B4A8A38554AB3B1 /* BFPaperButton.h */,
+				BE8429F27FF9C4D60E2B9E8996AC22B8 /* BFPaperButton.m */,
+				F5C43B00A79C7726B1A6C7AAB4462C0C /* Support Files */,
 			);
 			name = BFPaperButton;
 			path = BFPaperButton;
-			sourceTree = "<group>";
-		};
-		6B45CE9B285783783247E5877E4A9CE1 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				36DECB3C78C8877CBEC154408289E7C7 /* Pods-Marcel */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -115,15 +106,15 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				A82CFEABBF2933676C56EA9F012B3A45 /* Pods */,
-				C6DBBA771C499AA2B0B99A9487D6890B /* Products */,
-				6B45CE9B285783783247E5877E4A9CE1 /* Targets Support Files */,
+				0BC792527A476509D4BD42CED13FC6A3 /* Products */,
+				11D0F50824F6D44ADF8DD8071AA36AE2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 		A82CFEABBF2933676C56EA9F012B3A45 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				417B691FD9C546C678B4B55B00A0E63F /* BFPaperButton */,
+				6653AC39BA99D9F0FAE451B8001E75F3 /* BFPaperButton */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -136,13 +127,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C6DBBA771C499AA2B0B99A9487D6890B /* Products */ = {
+		D03FCC917EFBE5D7855DE58EC7BFA3A5 /* Pods-Marcel */ = {
 			isa = PBXGroup;
 			children = (
-				75AD6100E2DC311F8628A1E25584A43A /* libBFPaperButton.a */,
-				990F88E0EB179E3125B619068BBB6619 /* libPods-Marcel.a */,
+				14C6A6E8792A28F43BC730D5F279E629 /* Info.plist */,
+				E383F9E210279F00D2BD03CD25267082 /* Pods-Marcel.modulemap */,
+				C6D522E028407403182D5B129CA8D082 /* Pods-Marcel-acknowledgements.markdown */,
+				793F37021853F360E7BDB1543A5A46B9 /* Pods-Marcel-acknowledgements.plist */,
+				041DA8BCCAC646EB8EF786EB2FEBE2F7 /* Pods-Marcel-dummy.m */,
+				4A150E93DE407DF58827A9B332B22054 /* Pods-Marcel-frameworks.sh */,
+				51CB1B22B40B30F6398E8304AEA295B3 /* Pods-Marcel-resources.sh */,
+				CB39C45FE0E5902EEE3D08BB989B1280 /* Pods-Marcel-umbrella.h */,
+				99D49CC1F427F11E7A2814B51FB4284E /* Pods-Marcel.debug.xcconfig */,
+				BF97795809A57881A54B4C8910848022 /* Pods-Marcel.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-Marcel";
+			path = "Target Support Files/Pods-Marcel";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -153,27 +153,68 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		F5C43B00A79C7726B1A6C7AAB4462C0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FABE954FF8D867089C5E7312ACF6A0B /* BFPaperButton.modulemap */,
+				C6D17EBD175D0B79A6310EC698C23F40 /* BFPaperButton.xcconfig */,
+				2363E724F129CAD48C9581B1987840A5 /* BFPaperButton-dummy.m */,
+				3CE1350C9CC504807044708D7C5967BB /* BFPaperButton-prefix.pch */,
+				2DBF64C10988D69B3420E9506824500C /* BFPaperButton-umbrella.h */,
+				80850A8E82E8BFD9DDB47EC91FFC9FED /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BFPaperButton";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EF4847FF3A3B34AEC92D6533CEA13FF4 /* Headers */ = {
+		953FEF84EC7DA8A419FAA3BE454E5A80 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940E7A14FD2F679983E78CB31E4F5096 /* BFPaperButton.h in Headers */,
+				DA4B3039C1D29468665D9B040F3E9938 /* Pods-Marcel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FAA6E112641FBF33889C93501D8FE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C718CA3D36C65305618530ADE3CCA8 /* BFPaperButton-umbrella.h in Headers */,
+				DEA2AEF28562AD6951D233089709E705 /* BFPaperButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6920591AF8261DE6B5BF08EFFDD141F8 /* BFPaperButton */ = {
+		048817C488579B65F31F35A1F06DB272 /* Pods-Marcel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 347552C0DC301A6C0C889FA9979DEB20 /* Build configuration list for PBXNativeTarget "BFPaperButton" */;
+			buildConfigurationList = 0E14EC7B38322B33909D35011C3EA17C /* Build configuration list for PBXNativeTarget "Pods-Marcel" */;
 			buildPhases = (
-				A63D7BD428A72ACD84FCD5EFC89136F8 /* Sources */,
-				108C39E3E93D8B51FD5CC10526460C8E /* Frameworks */,
-				EF4847FF3A3B34AEC92D6533CEA13FF4 /* Headers */,
+				81C6FFFF82BA38D683C6DC1835DD5552 /* Sources */,
+				6F9C4668C23E9ABBEB888BA45389B24C /* Frameworks */,
+				953FEF84EC7DA8A419FAA3BE454E5A80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5061DB2E7E3248C920084DCA3724CB37 /* PBXTargetDependency */,
+			);
+			name = "Pods-Marcel";
+			productName = "Pods-Marcel";
+			productReference = 7D16B4A87FEAF8EEBAE28152CA9011F7 /* Pods_Marcel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0AD0BB4A92A7E15CDA2D402E6AF3639E /* BFPaperButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5028EEC792B052877AACAAA6CCEBF5 /* Build configuration list for PBXNativeTarget "BFPaperButton" */;
+			buildPhases = (
+				58ED52010260D07AEB2E5406948C754A /* Sources */,
+				9028771DF9653AC8BC73B225852343ED /* Frameworks */,
+				D7FAA6E112641FBF33889C93501D8FE1 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -181,25 +222,8 @@
 			);
 			name = BFPaperButton;
 			productName = BFPaperButton;
-			productReference = 75AD6100E2DC311F8628A1E25584A43A /* libBFPaperButton.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		7742A59A1BB117BAB683C9DAFFF32A17 /* Pods-Marcel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 34A684DE17DFE2DC2F0966A82D30A2C9 /* Build configuration list for PBXNativeTarget "Pods-Marcel" */;
-			buildPhases = (
-				137F6672801C7A9796A6B74060E3EC8C /* Sources */,
-				C2324805498028DD79FACF8DD05961CA /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6936EA038C5378A15609F5A195327302 /* PBXTargetDependency */,
-			);
-			name = "Pods-Marcel";
-			productName = "Pods-Marcel";
-			productReference = 990F88E0EB179E3125B619068BBB6619 /* libPods-Marcel.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 2507B19960A74B94C5AC736FC111EBD4 /* BFPaperButton.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -218,42 +242,42 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C6DBBA771C499AA2B0B99A9487D6890B /* Products */;
+			productRefGroup = 0BC792527A476509D4BD42CED13FC6A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6920591AF8261DE6B5BF08EFFDD141F8 /* BFPaperButton */,
-				7742A59A1BB117BAB683C9DAFFF32A17 /* Pods-Marcel */,
+				0AD0BB4A92A7E15CDA2D402E6AF3639E /* BFPaperButton */,
+				048817C488579B65F31F35A1F06DB272 /* Pods-Marcel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		137F6672801C7A9796A6B74060E3EC8C /* Sources */ = {
+		58ED52010260D07AEB2E5406948C754A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				858D8E1C4FC13632D0B303A1AFB8D60C /* Pods-Marcel-dummy.m in Sources */,
+				4B74132BFB0940A10B09CF5D4F86C2F8 /* BFPaperButton-dummy.m in Sources */,
+				374950D0E01AE1218457FA953F1B1965 /* BFPaperButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A63D7BD428A72ACD84FCD5EFC89136F8 /* Sources */ = {
+		81C6FFFF82BA38D683C6DC1835DD5552 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FD0116C11597F3D5C32FF2EDCC4B540 /* BFPaperButton-dummy.m in Sources */,
-				C2B92C1B900725A06C9D0E3787C3B77D /* BFPaperButton.m in Sources */,
+				8AD942706A14BEE5A957D46A22BA9AD1 /* Pods-Marcel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6936EA038C5378A15609F5A195327302 /* PBXTargetDependency */ = {
+		5061DB2E7E3248C920084DCA3724CB37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BFPaperButton;
-			target = 6920591AF8261DE6B5BF08EFFDD141F8 /* BFPaperButton */;
-			targetProxy = A1011320E4354087218F07AC4E9AE280 /* PBXContainerItemProxy */;
+			target = 0AD0BB4A92A7E15CDA2D402E6AF3639E /* BFPaperButton */;
+			targetProxy = AA8768B409EE5CFAB17A28215450E9CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -321,95 +345,135 @@
 			};
 			name = Debug;
 		};
-		41885137653F3DD94854A09D54DF4011 /* Debug */ = {
+		2478231E3D2B4CA62943B43FEA1ED0BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B4C7BB644002D3AADF96C398B7FB0CD /* BFPaperButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/BFPaperButton/BFPaperButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = BFPaperButton;
-				PRODUCT_NAME = BFPaperButton;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		52047E0657B60FA2AE36BC670BF5F338 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C876365159FA68CC7F79B41E928AEEDF /* Pods-Marcel.debug.xcconfig */;
+			baseConfigurationReference = 99D49CC1F427F11E7A2814B51FB4284E /* Pods-Marcel.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Marcel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Marcel/Pods-Marcel.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		7AD6A9B7F949B3E82BD2D32A9D38667B /* Release */ = {
+		8FFFF593C573A9838DB329AA52E1CAFD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B4C7BB644002D3AADF96C398B7FB0CD /* BFPaperButton.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/BFPaperButton/BFPaperButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = BFPaperButton;
-				PRODUCT_NAME = BFPaperButton;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		90965525083EC5F9181D831A41C2ABF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F51BBE017FAE8172FC38997EC234925 /* Pods-Marcel.release.xcconfig */;
+			baseConfigurationReference = BF97795809A57881A54B4C8910848022 /* Pods-Marcel.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Marcel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Marcel/Pods-Marcel.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		920286D23771EADAE360CD3EC3A50BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D17EBD175D0B79A6310EC698C23F40 /* BFPaperButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BFPaperButton/BFPaperButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BFPaperButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BFPaperButton/BFPaperButton.modulemap";
+				PRODUCT_MODULE_NAME = BFPaperButton;
+				PRODUCT_NAME = BFPaperButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D72398EE8B4FAA298F74A70B4075B360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D17EBD175D0B79A6310EC698C23F40 /* BFPaperButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BFPaperButton/BFPaperButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BFPaperButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BFPaperButton/BFPaperButton.modulemap";
+				PRODUCT_MODULE_NAME = BFPaperButton;
+				PRODUCT_NAME = BFPaperButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -472,6 +536,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0E14EC7B38322B33909D35011C3EA17C /* Build configuration list for PBXNativeTarget "Pods-Marcel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2478231E3D2B4CA62943B43FEA1ED0BB /* Debug */,
+				8FFFF593C573A9838DB329AA52E1CAFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -481,20 +554,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		347552C0DC301A6C0C889FA9979DEB20 /* Build configuration list for PBXNativeTarget "BFPaperButton" */ = {
+		DB5028EEC792B052877AACAAA6CCEBF5 /* Build configuration list for PBXNativeTarget "BFPaperButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				41885137653F3DD94854A09D54DF4011 /* Debug */,
-				7AD6A9B7F949B3E82BD2D32A9D38667B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		34A684DE17DFE2DC2F0966A82D30A2C9 /* Build configuration list for PBXNativeTarget "Pods-Marcel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52047E0657B60FA2AE36BC670BF5F338 /* Debug */,
-				90965525083EC5F9181D831A41C2ABF0 /* Release */,
+				D72398EE8B4FAA298F74A70B4075B360 /* Debug */,
+				920286D23771EADAE360CD3EC3A50BEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06500483E0381CBB378A693D /* libPods-Marcel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9ADA8650BD696998FC92E0 /* libPods-Marcel.a */; };
-		9421740E1A8F0648006AE2DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 942174091A8F0648006AE2DD /* main.m */; };
-		942174341A8F0693006AE2DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 942174311A8F0693006AE2DD /* AppDelegate.m */; };
-		942174351A8F0693006AE2DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942174331A8F0693006AE2DD /* ViewController.m */; };
-		942174381A8F06C7006AE2DD /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 942174371A8F06C7006AE2DD /* SoundManager.m */; };
-		9421743B1A8F06DF006AE2DD /* SoundMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 9421743A1A8F06DF006AE2DD /* SoundMap.m */; };
 		9421745B1A8F1283006AE2DD /* ahh.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9421743C1A8F1283006AE2DD /* ahh.m4a */; };
 		9421745C1A8F1283006AE2DD /* alan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9421743D1A8F1283006AE2DD /* alan.m4a */; };
 		9421745D1A8F1283006AE2DD /* beg.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9421743E1A8F1283006AE2DD /* beg.m4a */; };
@@ -43,25 +37,22 @@
 		942174771A8F1283006AE2DD /* treats-snoozin.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 942174581A8F1283006AE2DD /* treats-snoozin.m4a */; };
 		942174781A8F1283006AE2DD /* uhh.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 942174591A8F1283006AE2DD /* uhh.m4a */; };
 		942174791A8F1283006AE2DD /* what-they-say.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9421745A1A8F1283006AE2DD /* what-they-say.m4a */; };
-		9421747C1A8F12FF006AE2DD /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 9421747B1A8F12FF006AE2DD /* Button.m */; };
-		94AC059C1A90411F00AAACD2 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AC059B1A90411F00AAACD2 /* IntroViewController.m */; };
 		94C952021A9022B000DE715F /* Launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C952011A9022B000DE715F /* Launch.xib */; };
 		94C952041A9023BF00DE715F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C952031A9023BF00DE715F /* Images.xcassets */; };
+		94DC884920A53CE600226B25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC884820A53CE600226B25 /* AppDelegate.swift */; };
+		94DC886920A53DCE00226B25 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC886820A53DCE00226B25 /* IntroViewController.swift */; };
+		94DC886B20A54A0400226B25 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC886A20A54A0400226B25 /* MainViewController.swift */; };
+		94DC886D20A54E0500226B25 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC886C20A54E0500226B25 /* Button.swift */; };
+		94DC886F20A54E4700226B25 /* SoundSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC886E20A54E4700226B25 /* SoundSet.swift */; };
+		94DC887120A54E5900226B25 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC887020A54E5900226B25 /* SoundManager.swift */; };
+		94DC887320A55A7A00226B25 /* SoundMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC887220A55A7A00226B25 /* SoundMap.swift */; };
+		BE6753FCD6DC7BCEFB5C2CCF /* Pods_Marcel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD39E44C92620014ACDAF881 /* Pods_Marcel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AAB11E4DC7F6338DD269396 /* Pods-Marcel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marcel.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Marcel/Pods-Marcel.release.xcconfig"; sourceTree = "<group>"; };
 		942173B51A8EFF41006AE2DD /* Marcel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marcel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		942174081A8F0648006AE2DD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		942174091A8F0648006AE2DD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		942174301A8F0693006AE2DD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		942174311A8F0693006AE2DD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		942174321A8F0693006AE2DD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		942174331A8F0693006AE2DD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		942174361A8F06C7006AE2DD /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
-		942174371A8F06C7006AE2DD /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
-		942174391A8F06DF006AE2DD /* SoundMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundMap.h; sourceTree = "<group>"; };
-		9421743A1A8F06DF006AE2DD /* SoundMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundMap.m; sourceTree = "<group>"; };
 		9421743C1A8F1283006AE2DD /* ahh.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ahh.m4a; sourceTree = "<group>"; };
 		9421743D1A8F1283006AE2DD /* alan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = alan.m4a; sourceTree = "<group>"; };
 		9421743E1A8F1283006AE2DD /* beg.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = beg.m4a; sourceTree = "<group>"; };
@@ -92,14 +83,17 @@
 		942174581A8F1283006AE2DD /* treats-snoozin.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "treats-snoozin.m4a"; sourceTree = "<group>"; };
 		942174591A8F1283006AE2DD /* uhh.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = uhh.m4a; sourceTree = "<group>"; };
 		9421745A1A8F1283006AE2DD /* what-they-say.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "what-they-say.m4a"; sourceTree = "<group>"; };
-		9421747A1A8F12FF006AE2DD /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
-		9421747B1A8F12FF006AE2DD /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
-		94AC059A1A90411F00AAACD2 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
-		94AC059B1A90411F00AAACD2 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
 		94C952011A9022B000DE715F /* Launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launch.xib; sourceTree = "<group>"; };
 		94C952031A9023BF00DE715F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94DC884820A53CE600226B25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94DC886820A53DCE00226B25 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		94DC886A20A54A0400226B25 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		94DC886C20A54E0500226B25 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		94DC886E20A54E4700226B25 /* SoundSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSet.swift; sourceTree = "<group>"; };
+		94DC887020A54E5900226B25 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		94DC887220A55A7A00226B25 /* SoundMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundMap.swift; sourceTree = "<group>"; };
 		BB9343291F88FE6C1900F6BA /* Pods-Marcel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marcel.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Marcel/Pods-Marcel.debug.xcconfig"; sourceTree = "<group>"; };
-		BF9ADA8650BD696998FC92E0 /* libPods-Marcel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Marcel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD39E44C92620014ACDAF881 /* Pods_Marcel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marcel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06500483E0381CBB378A693D /* libPods-Marcel.a in Frameworks */,
+				BE6753FCD6DC7BCEFB5C2CCF /* Pods_Marcel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +120,7 @@
 		6C0A26DE9FB5169EFE9EFE4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF9ADA8650BD696998FC92E0 /* libPods-Marcel.a */,
+				FD39E44C92620014ACDAF881 /* Pods_Marcel.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,7 +159,6 @@
 				94C952031A9023BF00DE715F /* Images.xcassets */,
 				94C952011A9022B000DE715F /* Launch.xib */,
 				942174081A8F0648006AE2DD /* Info.plist */,
-				942174091A8F0648006AE2DD /* main.m */,
 			);
 			path = Support;
 			sourceTree = SOURCE_ROOT;
@@ -210,18 +203,13 @@
 		9421742F1A8F0693006AE2DD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				942174301A8F0693006AE2DD /* AppDelegate.h */,
-				942174311A8F0693006AE2DD /* AppDelegate.m */,
-				942174321A8F0693006AE2DD /* ViewController.h */,
-				942174331A8F0693006AE2DD /* ViewController.m */,
-				94AC059A1A90411F00AAACD2 /* IntroViewController.h */,
-				94AC059B1A90411F00AAACD2 /* IntroViewController.m */,
-				942174361A8F06C7006AE2DD /* SoundManager.h */,
-				942174371A8F06C7006AE2DD /* SoundManager.m */,
-				942174391A8F06DF006AE2DD /* SoundMap.h */,
-				9421743A1A8F06DF006AE2DD /* SoundMap.m */,
-				9421747A1A8F12FF006AE2DD /* Button.h */,
-				9421747B1A8F12FF006AE2DD /* Button.m */,
+				94DC884820A53CE600226B25 /* AppDelegate.swift */,
+				94DC886820A53DCE00226B25 /* IntroViewController.swift */,
+				94DC886A20A54A0400226B25 /* MainViewController.swift */,
+				94DC887020A54E5900226B25 /* SoundManager.swift */,
+				94DC886E20A54E4700226B25 /* SoundSet.swift */,
+				94DC887220A55A7A00226B25 /* SoundMap.swift */,
+				94DC886C20A54E0500226B25 /* Button.swift */,
 			);
 			path = Classes;
 			sourceTree = SOURCE_ROOT;
@@ -238,6 +226,7 @@
 				942173B11A8EFF41006AE2DD /* Sources */,
 				942173B21A8EFF41006AE2DD /* Frameworks */,
 				942173B31A8EFF41006AE2DD /* Resources */,
+				FB13D4FF176C5883407340E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +249,7 @@
 					942173B41A8EFF41006AE2DD = {
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = NKSX667Z2K;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -357,6 +347,24 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		FB13D4FF176C5883407340E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-Marcel/Pods-Marcel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BFPaperButton/BFPaperButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BFPaperButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Marcel/Pods-Marcel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -364,13 +372,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				942174351A8F0693006AE2DD /* ViewController.m in Sources */,
-				942174381A8F06C7006AE2DD /* SoundManager.m in Sources */,
-				942174341A8F0693006AE2DD /* AppDelegate.m in Sources */,
-				9421747C1A8F12FF006AE2DD /* Button.m in Sources */,
-				9421743B1A8F06DF006AE2DD /* SoundMap.m in Sources */,
-				9421740E1A8F0648006AE2DD /* main.m in Sources */,
-				94AC059C1A90411F00AAACD2 /* IntroViewController.m in Sources */,
+				94DC886920A53DCE00226B25 /* IntroViewController.swift in Sources */,
+				94DC887320A55A7A00226B25 /* SoundMap.swift in Sources */,
+				94DC884920A53CE600226B25 /* AppDelegate.swift in Sources */,
+				94DC886D20A54E0500226B25 /* Button.swift in Sources */,
+				94DC886B20A54A0400226B25 /* MainViewController.swift in Sources */,
+				94DC886F20A54E4700226B25 /* SoundSet.swift in Sources */,
+				94DC887120A54E5900226B25 /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,11 +491,14 @@
 			baseConfigurationReference = BB9343291F88FE6C1900F6BA /* Pods-Marcel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = NKSX667Z2K;
 				INFOPLIST_FILE = Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.appthat.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -496,11 +507,13 @@
 			baseConfigurationReference = 1AAB11E4DC7F6338DD269396 /* Pods-Marcel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = NKSX667Z2K;
 				INFOPLIST_FILE = Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.appthat.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

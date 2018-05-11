@@ -6,7 +6,9 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target "Marcel" do
 
-pod "BFPaperButton"
+    use_frameworks!
+
+    pod "BFPaperButton"
 
 end
 
