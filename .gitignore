@@ -1,4 +1,4 @@
-Podfile.lock
-*.DS_store
-*.xcuserdatad
-*xcuserdata/
+.DS_Store
+xcuserdata
+Pods
+

@@ -1,14 +1,8 @@
 project 'Marcel/Marcel.xcodeproj'
-
-platform :ios, "8.0"
-
-source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, "12.0"
 
 target "Marcel" do
-
     use_frameworks!
-
     pod "BFPaperButton"
-
 end
 
