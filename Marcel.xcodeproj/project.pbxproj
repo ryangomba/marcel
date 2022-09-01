@@ -37,6 +37,7 @@
 		942174771A8F1283006AE2DD /* treats-snoozin.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 942174581A8F1283006AE2DD /* treats-snoozin.m4a */; };
 		942174781A8F1283006AE2DD /* uhh.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 942174591A8F1283006AE2DD /* uhh.m4a */; };
 		942174791A8F1283006AE2DD /* what-they-say.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9421745A1A8F1283006AE2DD /* what-they-say.m4a */; };
+		94BB9EFA28C0580B00D6FCCF /* BFPaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BB9EF728C0580B00D6FCCF /* BFPaperButton.m */; };
 		94C952021A9022B000DE715F /* Launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C952011A9022B000DE715F /* Launch.xib */; };
 		94C952041A9023BF00DE715F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C952031A9023BF00DE715F /* Images.xcassets */; };
 		94DC884920A53CE600226B25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC884820A53CE600226B25 /* AppDelegate.swift */; };
@@ -46,11 +47,9 @@
 		94DC886F20A54E4700226B25 /* SoundSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC886E20A54E4700226B25 /* SoundSet.swift */; };
 		94DC887120A54E5900226B25 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC887020A54E5900226B25 /* SoundManager.swift */; };
 		94DC887320A55A7A00226B25 /* SoundMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DC887220A55A7A00226B25 /* SoundMap.swift */; };
-		BE6753FCD6DC7BCEFB5C2CCF /* Pods_Marcel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD39E44C92620014ACDAF881 /* Pods_Marcel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1AAB11E4DC7F6338DD269396 /* Pods-Marcel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marcel.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Marcel/Pods-Marcel.release.xcconfig"; sourceTree = "<group>"; };
 		942173B51A8EFF41006AE2DD /* Marcel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marcel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		942174081A8F0648006AE2DD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9421743C1A8F1283006AE2DD /* ahh.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ahh.m4a; sourceTree = "<group>"; };
@@ -84,6 +83,9 @@
 		942174591A8F1283006AE2DD /* uhh.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = uhh.m4a; sourceTree = "<group>"; };
 		9421745A1A8F1283006AE2DD /* what-they-say.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "what-they-say.m4a"; sourceTree = "<group>"; };
 		9470C028277C033B008D6CB0 /* Marcel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Marcel.entitlements; sourceTree = SOURCE_ROOT; };
+		94BB9EF728C0580B00D6FCCF /* BFPaperButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPaperButton.m; sourceTree = "<group>"; };
+		94BB9EF828C0580B00D6FCCF /* BFPaperButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPaperButton.h; sourceTree = "<group>"; };
+		94BB9EF928C0580B00D6FCCF /* Marcel-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Marcel-Bridging-Header.h"; sourceTree = "<group>"; };
 		94C952011A9022B000DE715F /* Launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launch.xib; sourceTree = "<group>"; };
 		94C952031A9023BF00DE715F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		94DC884820A53CE600226B25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,8 +95,6 @@
 		94DC886E20A54E4700226B25 /* SoundSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSet.swift; sourceTree = "<group>"; };
 		94DC887020A54E5900226B25 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		94DC887220A55A7A00226B25 /* SoundMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundMap.swift; sourceTree = "<group>"; };
-		BB9343291F88FE6C1900F6BA /* Pods-Marcel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marcel.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Marcel/Pods-Marcel.debug.xcconfig"; sourceTree = "<group>"; };
-		FD39E44C92620014ACDAF881 /* Pods_Marcel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marcel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,37 +102,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6753FCD6DC7BCEFB5C2CCF /* Pods_Marcel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3AC7D1DCFC375A03E775A064 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BB9343291F88FE6C1900F6BA /* Pods-Marcel.debug.xcconfig */,
-				1AAB11E4DC7F6338DD269396 /* Pods-Marcel.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		6C0A26DE9FB5169EFE9EFE4F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FD39E44C92620014ACDAF881 /* Pods_Marcel.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		942173AC1A8EFF41006AE2DD = {
 			isa = PBXGroup;
 			children = (
-				942173B71A8EFF41006AE2DD /* Marcel */,
+				9470C028277C033B008D6CB0 /* Marcel.entitlements */,
+				9421742F1A8F0693006AE2DD /* Classes */,
+				94BB9EF628C0580B00D6FCCF /* Vendor */,
+				942173DE1A8EFFFF006AE2DD /* Support */,
 				942173B61A8EFF41006AE2DD /* Products */,
-				3AC7D1DCFC375A03E775A064 /* Pods */,
-				6C0A26DE9FB5169EFE9EFE4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,19 +127,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		942173B71A8EFF41006AE2DD /* Marcel */ = {
-			isa = PBXGroup;
-			children = (
-				9470C028277C033B008D6CB0 /* Marcel.entitlements */,
-				9421742F1A8F0693006AE2DD /* Classes */,
-				942173DE1A8EFFFF006AE2DD /* Support */,
-			);
-			path = Marcel;
-			sourceTree = "<group>";
-		};
 		942173DE1A8EFFFF006AE2DD /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				94BB9EF928C0580B00D6FCCF /* Marcel-Bridging-Header.h */,
 				942173DF1A8EFFFF006AE2DD /* Audio */,
 				94C952031A9023BF00DE715F /* Images.xcassets */,
 				94C952011A9022B000DE715F /* Launch.xib */,
@@ -216,6 +190,15 @@
 			path = Classes;
 			sourceTree = SOURCE_ROOT;
 		};
+		94BB9EF628C0580B00D6FCCF /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				94BB9EF828C0580B00D6FCCF /* BFPaperButton.h */,
+				94BB9EF728C0580B00D6FCCF /* BFPaperButton.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,12 +206,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 942173D81A8EFF41006AE2DD /* Build configuration list for PBXNativeTarget "Marcel" */;
 			buildPhases = (
-				D676937BD2DC6CCD1C3A477B /* [CP] Check Pods Manifest.lock */,
-				F823B42A9832C278228A7C3A /* Check Pods Manifest.lock */,
 				942173B11A8EFF41006AE2DD /* Sources */,
 				942173B21A8EFF41006AE2DD /* Frameworks */,
 				942173B31A8EFF41006AE2DD /* Resources */,
-				FB13D4FF176C5883407340E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,7 +231,7 @@
 					942173B41A8EFF41006AE2DD = {
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = NKSX667Z2K;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -315,60 +295,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		D676937BD2DC6CCD1C3A477B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Marcel-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F823B42A9832C278228A7C3A /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FB13D4FF176C5883407340E7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Marcel/Pods-Marcel-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BFPaperButton/BFPaperButton.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BFPaperButton.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Marcel/Pods-Marcel-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		942173B11A8EFF41006AE2DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -380,6 +306,7 @@
 				94DC886D20A54E0500226B25 /* Button.swift in Sources */,
 				94DC886B20A54A0400226B25 /* MainViewController.swift in Sources */,
 				94DC886F20A54E4700226B25 /* SoundSet.swift in Sources */,
+				94BB9EFA28C0580B00D6FCCF /* BFPaperButton.m in Sources */,
 				94DC887120A54E5900226B25 /* SoundManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,7 +422,6 @@
 		};
 		942173D91A8EFF41006AE2DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB9343291F88FE6C1900F6BA /* Pods-Marcel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -509,6 +435,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Support/Marcel-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
@@ -517,7 +444,6 @@
 		};
 		942173DA1A8EFF41006AE2DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AAB11E4DC7F6338DD269396 /* Pods-Marcel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -531,6 +457,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Support/Marcel-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};

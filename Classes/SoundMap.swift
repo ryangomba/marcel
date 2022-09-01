@@ -1,9 +1,8 @@
 import UIKit
 
 class SoundMap: NSObject {
-    let soundSets: [SoundSet]
-
-    static let shared = SoundMap()
+    public static let shared = SoundMap()
+    public let soundSets: [SoundSet]
 
     override init() {
         self.soundSets = [
@@ -20,7 +19,7 @@ class SoundMap: NSObject {
             SoundSet.init(sounds: ["alan"]),
             SoundSet.init(sounds: ["muffin-a", "muffin-sleep"]),
         ]
-
         super.init()
     }
+
 }

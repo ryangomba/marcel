@@ -2,9 +2,9 @@ import UIKit
 import AVKit
 
 class SoundSet: NSObject {
-    var player: AVPlayer
-    var sounds: [String]
-    var currentIndex: Int
+    private var player: AVPlayer
+    private var sounds: [String]
+    private var currentIndex: Int
 
     init(sounds: [String]) {
         self.player = AVPlayer.init()
